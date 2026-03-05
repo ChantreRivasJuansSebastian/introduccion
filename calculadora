@@ -1,0 +1,7 @@
+prograa que relaiza la suma de un numero 
+Escribir " Digite el primernumero"
+Leer Num1
+Escribir "Digite el segundo numero "
+Leer Num2
+Resultado = Num1 + Num2
+Escribir "El resultado de la suma es :", Resultado
