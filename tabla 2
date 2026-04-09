@@ -1,0 +1,26 @@
+Proceso VacacionesJuan
+	
+	Definir p, q, r, s, v Como Logico
+	
+	Escribir "¿Juan gana el año? (Verdadero/Falso)"
+	Leer p
+	
+	Escribir "¿Entrena futbol todos los dias? (Verdadero/Falso)"
+	Leer q
+	
+	Escribir "¿Va a la iglesia los domingos? (Verdadero/Falso)"
+	Leer r
+	
+	Escribir "¿Ayuda a cuidar a su hermanito? (Verdadero/Falso)"
+	Leer s
+	
+	// Expresion logica
+	v <- (p Y q) O (p Y r Y s)
+	
+	Si v Entonces
+		Escribir "Juan SI va de vacaciones"
+	SiNo
+		Escribir "Juan NO va de vacaciones"
+	FinSi
+
+FinProceso
